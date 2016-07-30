@@ -34,7 +34,11 @@ updated local copy. Also, keeping a backup of the remote copy can be useful.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	Collaborating without Git or GitHub would be very difficult because there
+would be no system to manage the changes to common files and merge the required parts.
+Also, keeping a track of the change history and rollback to the last working point
+would be impossible. On the other hand, without Git, the managing would not be web-based
+and also easier to learn in certain aspects.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
