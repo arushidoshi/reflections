@@ -15,6 +15,11 @@ us to view files in a certain context before putting them in a single commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	The staging area can be used to add files that have been changed and hence need 
+to be committed again. Now, when files are in the staging area we can check using 
+git diff —staged to see if there was any real logical change since those files were last
+committed. If yes, then we proceed; else we will not commit them just yet.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
