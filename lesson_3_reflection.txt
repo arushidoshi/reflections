@@ -43,4 +43,8 @@ and also easier to learn in certain aspects.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	Making changes in a separate branch becomes essential during experimental
+features as they may introduce bugs if merged with the main branch. On the other hand,
+if the changes are directly made in the master then maintaining consistency with the 
+online repository will be made easier. 
+
