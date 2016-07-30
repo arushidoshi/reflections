@@ -23,10 +23,30 @@ committed. If yes, then we proceed; else we will not commit them just yet.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches would be helpful in keeping tabs on new developing different versions 
+on the side that we are not yet ready to call as increments on the same code. Branches 
+would also help when we want to merge 2 different approaches as one.
+
 How do the diagrams help you visualize the branch structure?
+
+	If there are too many collaborators working on different branches or multiple
+features of the project being worked on simultaneously, then using git log —graph will
+help to visualise the work better and will also generate a timeline of the changes.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging two branches is that, whichever is the current branch (branch1),
+the other branch name supplied in git merge branch1 branch2, is merged in branch1.
+The result is that the commits associated with branch2 are merged in branch1. After the 
+merging we can delete the label “branch2” as its commit history is now accessible 
+by branch1. Thus, in the diagram they are represented as a node with a new connection
+to the commits of branch2. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Pros: Automatic merging saves time of the developer in manually merging the redundant
+content of each file. It also alerts the user in case there are some issues with automatic 
+merging. Cons: Automatic merging cannot resolve conflicts so in that case the user will
+have to resolve the conflict before merging. 
